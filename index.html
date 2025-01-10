@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>Coffee</title>
+</head>
+<body>
+    <header>
+        <nav class="flex justify-between items-center py-[44px] px-[15px]">
+            <div class="logo">
+                <img src="./image/logo.svg" alt="logo">
+            </div>
+            <ul class="flex gap-x-[32px] max-sm:hidden">
+                <a href="#"><li class="text-[#83888F] text-[12px] font-bold uppercase hover:text-[#000000] duration-[.5s]">HOME</li></a>
+                <a href="#about"><li class="text-[#83888F] text-[12px] font-bold uppercase hover:text-[#000000] duration-[.5s]">ABOUT US</li></a>
+                <a href="#plan"><li class="text-[#83888F] text-[12px] font-bold uppercase hover:text-[#000000] duration-[.5s]">Create your plan</li></a>
+            </ul>
+            <i class='bx bx-menu hidden max-sm:block text-[30px] text-[#83888F] hover:text-[#000000] cursor-pointer duration-[.3s]'></i>
+        </nav> 
+        <div class="header-hero bg-[url('./image/header-img.png')] bg-center bg-cover min-h-[600px] py-[117px]">
+            <div class="container">
+                    <h1 class="max-w-[493px] text-[72px] leading-[72px] font-black text-[#FEFCF7] max-md:max-w-[329px] max-md:text-[48px] leading-[48px] max-sm:text-[46px] max-sm:max-w-[350px] max-sm:leading-[50px] max-sm:text-center max-sm:mx-auto">Great coffee made simple.</h1>
+                    <p class="max-w-[440px] text-[#FEFCF7] text-[16px] leading-[26px] mt-[32px] max-sm:text-center max-sm:mx-auto">Start your mornings with the world's best coffees. Try our expertly curated artisan coffees from our best roasters delivered directly to your door, at your schedule.</p>
+                    <a href="#plan"><button class="w-[217px] h-[56px] rounded-[6px] bg-[#0E8784] text-[#FEFCF7] text-[18px] font-black mt-[56px] hover:bg-[#66D2CF] duration-[.3s] max-sm:mx-auto flex items-center justify-center">Create your plan</button></a>
+            </div>
+        </div>
+    </header>
+
+    <div class="collection py-[137px] max-md:py-[100px] max-sm:pt-[50px]">
+        <div class="container">
+            <div class="collection-img max-w-[1111px] h-[196px] mx-auto">
+                <img src="./image/collection.png" alt="collection" class="w-[100%] h-[100%]">
+            </div>
+            <div class="card grid grid-cols-4 max-lg:grid-cols-2 gap-x-[30px] gap-y-[50px] mt-[-65px] top-[130px] max-w-[1111px] mx-auto max-md:grid-cols-1 max-sm:grid-cols-1">
+                <div class="cards mx-auto max-md:flex max-md:min-h-[193px] max-md:items-center max-sm:flex-col">
+                    <div class="cards-img max-w-[255px] h-[193px] mx-auto]">
+                        <img src="./image/espresso.png" alt="espresso" class="w-[100%] h-[100%]">
+                    </div>
+                    <div class="cards-title">
+                        <h3 class="text-[24px] text-[#333D4B] mx-auto max-md:text-start max-sm:text-center text-center mt-[70px] max-md:mt-[0px] max-sm:mt-[30px]">Espresso</h3>
+                        <p class="text-[16px] text-[#333D4B] max-w-[255px] mt-[24px] mx-auto max-md:text-start max-sm:text-center text-center max-sm:max-w-[300px]">Light and flavorful blend with cocoa and black pepper for an intense experience.</p>
+                    </div>
+                </div>
+                <div class="cards mx-auto max-md:flex max-md:min-h-[193px] max-md:items-center max-sm:flex-col">
+                    <div class="cards-img max-w-[255px] h-[193px] mx-auto]">
+                        <img src="./image/planalto.png" alt="planalto" class="w-[100%] h-[100%]">
+                    </div>
+                    <div class="cards-title">
+                        <h3 class="text-[24px] text-[#333D4B] mx-auto max-md:text-start max-sm:text-center text-center mt-[70px] max-md:mt-[0px] max-sm:mt-[30px]">Planalto</h3>
+                        <p class="text-[16px] text-[#333D4B] max-w-[255px] mt-[24px] mx-auto max-md:text-start max-sm:text-center text-center max-sm:max-w-[300px]">Brazilian dark roast with rich and velvety body, and hints of fruits and nuts.</p>
+                    </div>
+                </div>
+                <div class="cards mx-auto max-md:flex max-md:min-h-[193px] max-md:items-center max-sm:flex-col">
+                    <div class="cards-img max-w-[255px] h-[193px] mx-auto]">
+                        <img src="./image/piccollo.png" alt="piccollo" class="w-[100%] h-[100%]">
+                    </div>
+                    <div class="cards-title">
+                        <h3 class="text-[24px] text-[#333D4B] mx-auto max-md:text-start max-sm:text-center text-center mt-[70px] max-md:mt-[0px] max-sm:mt-[30px]">Piccollo</h3>
+                        <p class="text-[16px] text-[#333D4B] max-w-[255px] mt-[24px] mx-auto max-md:text-start max-sm:text-center text-center max-sm:max-w-[300px]">Mild and smooth blend featuring notes of toasted almond and dried cherry.</p>
+                    </div>
+                </div>
+                <div class="cards mx-auto max-md:flex max-md:min-h-[193px] max-md:items-center max-sm:flex-col">
+                    <div class="cards-img max-w-[255px] h-[193px] mx-auto]"> `
+                        <img src="./image/danche.png" alt="danche" class="w-[100%] h-[100%]">
+                    </div>
+                    <div class="cards-title">
+                        <h3 class="text-[24px] text-[#333D4B] mt-[70px] max-md:mt-[0px] max-sm:mt-[30px] mx-auto max-md:text-start max-sm:text-center text-center">Danche</h3>
+                        <p class="text-[16px] text-[#333D4B] max-w-[255px] mt-[24px] mx-auto max-md:text-start max-sm:text-center text-center max-sm:max-w-[300px]">Ethiopian hand-harvested blend densely packed with vibrant fruit notes.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="about w-full h-[577px] mb-[350px] max-md:mb-[450px] max-sm:mb-[750px] max-sm:h-[902px] bg-[#2C343E]  rounded-[8px]" id="about">
+        <div class="container">
+            <h2 class="text-[#FEFCF7] text-[40px] font-black text-center pt-[100px] max-md:pt-[56px] max-sm:text-[28px] ">Why choose us?</h2>
+            <p class="max-w-[540px] mx-auto text-[#FEFCF7] text-[16px] leading-[26px] text-center mt-[32px] max-md:mt-[32px] max-sm:max-w-[300px] max-sm:mt-[24px]">A large part of our role is choosing which particular coffees will be featured 
+            in our range. This means working closely with the best coffee growers to give 
+            you a more impactful experience on every level.</p>
+            <div class="card flex gap-[30px] justify-center mt-[86px] max-md:flex-col max-md:mt-[70px] max-sm:mt-[64px]">
+                <div class="cards w-[350px] min-h-[382px] rounded-[8px] mx-auto bg-[#0E8784] max-md:flex max-md:items-center max-md:min-h-[180px] max-md:w-[575px] px-[50px] max-sm:w-[300px] max-sm:min-h-[382px] max-sm:flex-col max-sm:justify-center">
+                    <img src="./image/coffee-bean.svg" alt="coffee" class="mt-[70px] w-[55px] h-[55px] mx-auto max-md:mt-[0]">
+                    <div class="cards-title max-w-[255px] max-md:max-w-[345px]">
+                        <h4 class="mt-[55px] text-[24px] font-black text-[#FEFCF7] text-center max-md:mt-[0px] max-md:text-start max-sm:text-[24px] max-sm:text-center max-sm:mt-[56px]">Best quality</h4>
+                        <p class="text-[#FEFCF7] text-[16px] w-[100%] mx-auto text-center mt-[24px] max-md:w-[350px] max-md:text-start max-sm:max-w-[220px] max-sm:text-center">Discover an endless variety of the world's best artisan coffee from each of our roasters.</p>
+                    </div>
+                </div>
+                <div class="cards w-[350px] min-h-[382px] rounded-[8px] mx-auto bg-[#0E8784] max-md:flex max-md:items-center max-md:min-h-[180px] max-md:w-[575px] px-[50px] max-sm:w-[300px] max-sm:min-h-[382px] max-sm:flex-col max-sm:justify-center">
+                    <img src="./image/podarok.svg" alt="podarok" class="mt-[70px]  w-[55px] h-[55px] mx-auto max-md:mt-[0]">
+                    <div class="cards-title max-w-[255px] max-md:max-w-[345px]">
+                        <h4 class="mt-[55px] text-[24px] font-black text-[#FEFCF7] text-center max-md:mt-[0px] max-md:text-start max-sm:text-[24px] max-sm:text-center max-sm:mt-[56px]">Exclusive benefits</h4>
+                        <p class="text-[#FEFCF7] text-[16px] w-[100%] mx-auto text-center mt-[24px] max-md:w-[350px] max-md:text-start max-sm:max-w-[220px] max-sm:text-center">Special offers and swag when you subscribe, including 30% off your first shipment.</p>
+                    </div>
+                </div>
+
+                <div class="cards w-[350px] min-h-[382px] rounded-[8px] mx-auto bg-[#0E8784] max-md:flex  max-md:items-center max-md:min-h-[180px] max-md:w-[575px] px-[50px] max-sm:w-[300px] max-sm:min-h-[382px] max-sm:flex-col max-sm:justify-center">
+                    <img src="./image/car.svg" alt="car" class="mt-[70px] h-[55px] w-[55px] mx-auto max-md:mt-[0]">
+                    <div class="cards-title max-w-[255px] max-md:max-w-[345px]">
+                        <h4 class="mt-[55px] text-[24px] font-black text-[#FEFCF7] text-center max-md:mt-[0px] max-md:text-start max-sm:text-[24px] max-sm:text-center max-sm:mt-[56px]">Free shipping</h4>
+                        <p class="text-[#FEFCF7] text-[16px] w-[100%]  mx-auto text-center mt-[24px] max-md:w-[350px] max-md:text-start max-sm:max-w-[220px] max-sm:text-center">We cover the cost and coffee is delivered fast. Peak freshness: guaranteed.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="plan" id="plan">
+        <div class="container">
+            <h2 class="text-[24px] font-black text-[#83888F] mt-[20px] max-sm:text-center">How it works</h2>
+            <div class="line flex items-center max-sm:hidden">
+                <p class="h-[31px] w-[31px] rounded-[50%] border-[2px] border-[#0E8784]"></p>
+                <p class="w-[370px] h-[2px] bg-[#FDD6BA] max-md:w-[200px]"></p>
+                <p class="h-[31px] w-[31px] rounded-[50%] border-[2px] border-[#0E8784]"></p>
+                <p class="w-[370px] h-[2px] bg-[#FDD6BA] max-md:w-[200px]"></p>
+                <p class="h-[31px] w-[31px] rounded-[50%] border-[2px] border-[#0E8784]"></p>
+            </div>
+            <div class="card flex gap-x-[95px] max-sm:flex-col">
+                <div class="cards mt-[80px] max-w-[285px] min-h-[355px] max-sm:max-w-[330px] max-sm:text-center max-sm:mx-auto">
+                    <h3 class="text-[72px] text-[#FDD6BA] font-black">01</h3>
+                    <h4 class="text-[#333D4B] text-[30px] max-w-[245px] mt-[18px] font-black max-sm:mx-auto">Pick your coffee</h4>
+                    <p class="text-[16px] text-[#333D4B] leading-[26px] mt-[42px]">Select from our evolving range of artisan coffees. Our beans are ethically sourced and we pay fair prices for them. There are new coffees in all profiles every month for you to try out.</p>
+                </div>
+                <div class="cards mt-[80px] max-w-[285px] min-h-[355px] max-sm:max-w-[330px] max-sm:text-center max-sm:mx-auto">
+                    <h3 class="text-[72px] text-[#FDD6BA] font-black">02</h3>
+                    <h4 class="text-[#333D4B] text-[30px] max-w-[255px] mt-[18px] font-black max-sm:mx-auto">Choose the frequency</h4>
+                    <p class="text-[16px] text-[#333D4B] leading-[26px] mt-[42px]">Customize your order frequency, quantity, even your roast style and grind type. Pause, skip or cancel your subscription with no commitment through our online portal.</p>
+                </div>
+                <div class="cards mt-[80px] max-w-[285px] min-h-[355px] max-sm:max-w-[330px] max-sm:text-center max-sm:mx-auto">
+                    <h3 class="text-[72px] text-[#FDD6BA] font-black">03</h3>
+                    <h4 class="text-[#333D4B] text-[30px] max-w-[255px] mt-[18px] font-black max-sm:mx-auto">Receive and enjoy!</h4>
+                    <p class="text-[16px] text-[#333D4B] leading-[26px] mt-[42px]">We ship your package within 48 hours, freshly roasted. Sit back and enjoy award-winning world-class coffees curated to provide a distinct tasting experience.</p>
+                </div>
+            </div>
+            <a href="#plan"><button class="w-[217px] h-[56px] rounded-[6px] bg-[#0E8784] text-[#FEFCF7] text-[18px] font-black mt-[64px] hover:bg-[#66D2CF] duration-[.3s] max-sm:mx-auto flex items-center justify-center">Create your plan</button></a>
+        </div>
+    </div>
+
+    <footer class="min-h-[120px] bg-[#2C343E] mt-[150px]">
+        <div class="container">
+            <nav class="min-h-[120px] flex justify-between items-center max-md:flex-col max-md:py-[50px]">
+                <div class="logo">
+                    <img src="./image/logo-2.svg" alt="logo">
+                </div>
+                <ul class="flex gap-x-[32px] flex-wrap justify-center gap-y-[10px] max-md:mt-[32px]">
+                    <a href="#"><li class="text-[#83888F] text-[12px] font-bold uppercase hover:text-[#FEFCF7] duration-[.5s]">HOME</li></a>
+                    <a href="#about"><li class="text-[#83888F] text-[12px] font-bold uppercase hover:text-[#FEFCF7] duration-[.5s]">ABOUT US</li></a>
+                    <a href="#plan"><li class="text-[#83888F] text-[12px] font-bold uppercase hover:text-[#FEFCF7] duration-[.5s]">Create your plan</li></a>
+                </ul>
+                <div class="icons flex gap-x-[20px] max-md:mt-[60px]">
+                    <i class='bx bxl-facebook-square text-[30px] text-[#FEFCF7] hover:text-[#FDD6BA] duration-[.3s] cursor-pointer'></i>
+                    <i class='bx bxl-twitter text-[30px] text-[#FEFCF7] hover:text-[#FDD6BA] duration-[.3s] cursor-pointer'></i>
+                    <i class='bx bxl-instagram text-[30px] text-[#FEFCF7] hover:text-[#FDD6BA] duration-[.3s] cursor-pointer'></i>
+                </div>
+            </nav>
+            
+            
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.tailwindcss.com"></script>
+</body>
+</html>

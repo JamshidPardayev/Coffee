@@ -1,0 +1,17 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Fraunces", serif;
+    scroll-behavior: smooth;
+}
+.container{
+    max-width: 1200px;
+    padding: 0px 15px;
+    margin: auto;
+}
+p{
+    font-family: "Barlow", serif; 
+}
